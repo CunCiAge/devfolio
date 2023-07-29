@@ -1,0 +1,421 @@
+/* pc */
+
+@media (min-width:1024px){
+
+}
+
+/* ipad */
+
+@media (min-width:740px) and (max-width:1023px){
+    .header_menu{
+        width:40%;
+        font-size: 14px;
+    }
+
+    .introduction{
+        padding: 0px;
+    }
+
+    .introduction_container{
+        width: 80%;
+        margin:50px;
+        flex-direction: column;
+    }
+    
+    .introduction_container p{
+        font-size: 14px;
+    }
+
+    .services p{
+        font-size: 14px;
+    }
+
+    .services h3{
+        font-size: 20px;
+    }
+
+    p{
+        font-size: 14px;
+    }
+
+    .portfolio_content{
+        display: flex;
+        flex-flow: wrap row;
+        padding: 0px 0px 50px 0px;
+    }
+
+    /* .skill_content i{
+    remove the i tag??
+    } */
+
+    .skill_text{
+        display: flex;
+        justify-content: center;
+    }
+
+    .skill_text h3{
+        font-size: 20px;
+    }
+
+    .feedback_content h3{
+        font-size: 20px;
+    }
+
+    .feedback_content p{
+        font-size: 14px;
+        margin:0px 10px;
+        text-align: center;
+    }
+
+    .feedback_content i{
+        font-size: 20px;
+        /*remove this stuff too*/
+    }
+        
+    .blog_title h1{
+        font-size: 35px;
+    }
+
+    .blog_title h4{
+        font-size: 17px;
+    }
+
+    .blog_decoration{
+        font-size: 14px;
+        /*remove this too*/
+    }
+
+    .blog_skill{
+        width: 25%;
+        text-align: center;
+    }
+
+    .contact_message h2{
+        font-size: 22px;
+    }
+
+    .contact_info h2{
+        font-size: 22px;
+    }
+
+    .contact_info p{
+        font-size: 14px;
+        margin: 20px 0px;
+    }
+
+    .contact_info i{
+        font-size: 20px;
+        border: 2px solid black;
+        border-radius: 20px;
+        width: 30px;
+        height: 30px;
+        text-align: center;
+        line-height: 30px;
+    }
+
+    .option{
+        width: 100%;
+        font-size: 17px;
+    }
+
+    .blog_content{
+        flex-direction: column;
+    }
+
+    .blog_skill{
+        width: 70%;
+        margin: 10px auto;
+    }
+
+    .contact_content{
+        flex-direction: column-reverse;
+        justify-content: center;
+    }
+
+    .contact_info{
+        width: 100%;
+        margin: 10px 0px;
+    }
+
+    .contact_message{
+        width: 100%;
+        margin:10px 0px;
+    }
+
+    .contact_message button{
+        width: 30%;
+    }
+
+    .header{
+        flex-direction: column;
+        line-height: 20px;
+    }
+
+    .header_dev{
+        width: 100%;
+        text-align: center;
+    }
+
+    .header_dev h2{
+        height: 40px;
+        font-size: 20px;
+        margin: 10px 0px;
+    }
+
+    .header_menu{
+        width: 100%;
+        height: 40px;
+    }
+
+    .temp{
+        flex-direction: column;
+    }
+
+    .temp img{
+        margin:10px 0px;
+        width: 40%;
+    }
+    
+    .info_box{
+        width: 100%;
+    }
+
+    .introduction_info{
+        width: 100%;
+    }
+
+    .introduction_content{
+        width: 100%;
+    }
+
+}
+
+/* mobile */
+
+@media (max-width:739px){
+
+    .header_dev h2{
+        font-size: 16px;
+    }
+
+    .header_menu{
+        width:40%;
+        font-size: 10px;
+    }
+
+    .introduction{
+        padding:10px;
+    }
+
+    .introduction_container{
+        width: 85%;
+        margin:50px;
+        flex-direction: column;
+    }
+
+    .introduction_skill h2{
+        font-size: 16px;
+    }
+    
+    .introduction_container p{
+        font-size: 12px;
+    }
+
+    .introduction_content h2{
+        font-size: 16px;
+    }
+
+    .services p{
+        font-size: 13px;
+    }
+
+    .services h3{
+        font-size: 18px;
+    }
+
+    #services{
+        padding: 0px;
+    }
+
+    .option{
+        width: 100%;
+    }
+
+
+
+    .services_options{
+        width: 100%;
+        
+    }
+
+    p{
+        font-size: 14px;
+    }
+
+    .services_title h1{
+        font-size: 20px;
+    }
+
+    .portfolio_content{
+        display: flex;
+        flex-flow: wrap row;
+        padding: 0px 0px 50px 0px;
+    }
+
+    /* .skill_content i{
+    remove the i tag??
+    } */
+
+    .skill_text{
+        display: flex;
+        justify-content: center;
+    }
+
+    .skill_text h3{
+        font-size: 16px;
+    }
+
+    .skill_text p{
+        font-size: 11px;
+    }
+
+    .feedback_content h3{
+        font-size: 20px;
+    }
+
+    .feedback_content p{
+        font-size: 14px;
+        margin: 0px 10px;
+        text-align: center;
+    }
+
+    .feedback_content i{
+        font-size: 20px;
+        /*remove this stuff too*/
+    }
+        
+    .blog_title h1{
+        font-size: 30px;
+    }
+
+    .blog_title h4{
+        font-size: 15px;
+    }
+
+    .margin_skill a{
+        font-size: 19px;
+    }
+
+    .blog_decoration{
+        font-size: 14px;
+        /*remove this too*/
+    }
+
+    .blog_skill{
+        width: 25%;
+        text-align: center;
+    }
+
+    .contact_message h2{
+        font-size: 22px;
+    }
+
+    .contact_info h2{
+        font-size: 22px;
+    }
+
+    .contact_info p{
+        font-size: 14px;
+        margin: 20px 0px;
+    }
+
+    .contact_info i{
+        font-size: 20px;
+        border: 2px solid black;
+        border-radius: 20px;
+        width: 30px;
+        height: 30px;
+        text-align: center;
+        line-height: 30px;
+    }
+
+    .achivement h2{
+        font-size: 22px;
+    }
+
+    .achivement h4{
+        font-size: 15px;
+    }
+
+    .blog_content{
+        flex-direction: column;
+    }
+
+    .blog_skill{
+        width: 70%;
+        margin: 10px auto;
+    }
+    
+    .contact_content{
+        flex-direction: column-reverse;
+        justify-content: center;
+        width: 80%;
+    }
+
+    .contact_info{
+        width: 100%;
+        margin: 10px 0px;
+    }
+
+    .contact_message{
+        width: 100%;
+        margin:30px 0px;
+    }
+
+    .contact_message button{
+        width: 30%;
+    }
+
+    .header{
+        flex-direction: column;
+        line-height: 20px;
+    }
+
+    .header_dev{
+        width: 100%;
+        text-align: center;
+    }
+
+    .header_dev h2{
+        height: 40px;
+        font-size: 20px;
+        margin: 10px 0px;
+    }
+
+    .header_menu{
+        width: 100%;
+        height: 40px;
+    }
+
+    .temp{
+        flex-direction: column;
+    }
+
+    .temp img{
+        margin:10px 0px;
+        width: 40%;
+    }
+    
+    .info_box{
+        width: 100%;
+    }
+
+    .introduction_info{
+        width: 100%;
+    }
+
+    .introduction_content{
+        width: 100%;
+    }
+
+}
