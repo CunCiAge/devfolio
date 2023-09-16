@@ -1,0 +1,210 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Comic Sans MS;
+    color: black;
+}
+
+.header{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgba(0, 0, 0, 0.5);
+    line-height: 90px;
+    color: white ;
+    position: fixed;
+    width: 100%;
+}
+
+.header_dev{
+    width: 40%;
+}
+
+.header_dev h2{
+    color: white;
+}
+
+.header_menu{
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+}
+
+ul{
+    list-style-type: none;
+}
+
+li a{
+    text-decoration: none;
+    color: white ;
+
+}
+
+.navbar::after{
+    content: "";
+    display: block;
+    width: 30px;
+    height:3px;
+}
+
+.navbar:hover::after{
+    content: "";
+    display: block;
+    width: 30px;
+    height:3px;
+    background-color: red;
+    transition: 1s;
+    position: relative;
+    bottom: 30px
+}
+
+.background_home{
+    background-image: url("background.jpg");
+    background-size: 2080px 800px;
+    text-align: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 800px;
+    color:white;
+}
+
+.background_home h1{
+    font-size: 50px;
+    color: white;
+}
+
+.content{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.background_1{
+    background-image: url("rapphim3.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.passage_1{
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    text-align: left;
+    justify-content: space-evenly;
+    flex-direction: row-reverse;
+    padding: 200px 0px;
+}
+
+.text_passage_1{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 30px;
+}
+
+.background_1 img{
+    width: 40%;
+}
+
+.text_passage_1 h2{
+    color: white;
+}
+
+.text_passage_1 p{
+    color: white;
+}
+
+.background_2{
+    background-image: url("rapphim3.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.passage_2{
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    text-align: left;
+    justify-content: space-evenly;
+    flex-direction: row;
+    padding: 200px 0px;
+}
+
+.text_passage_2{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 30px;
+}
+
+.background_2 img{
+    width: 40%;
+}
+
+.text_passage_2 h2{
+    color: white;
+}
+
+.text_passage_2 p{
+    color: white;
+}
+
+.passage_3{
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    text-align: left;
+    justify-content: space-evenly;
+    flex-direction: row-reverse;
+    padding: 200px 0px;
+}
+
+.text_passage_3{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 30px;
+}
+
+.background_3 img{
+    width: 40%;
+}
+
+.text_passage_3 h2{
+    color: white;
+}
+
+.text_passage_3 p{
+    color: white;
+}
+
+.passage_4{
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    text-align: left;
+    justify-content: space-evenly;
+    flex-direction: row;
+    padding: 200px 0px;
+}
+
+.text_passage_4{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 30px;
+}
+
+.background_4 img{
+    width: 40%;
+}
+
+.text_passage_4 h2{
+    color: white;
+}
+
+.text_passage_4 p{
+    color: white;
+}

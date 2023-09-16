@@ -176,6 +176,11 @@
         width: 40%;
     }
     
+    .temp img::after{
+        content: url("IMG_1352.JPG");
+        
+    }
+
     .info_box{
         width: 100%;
     }
@@ -339,11 +344,11 @@
         line-height: 30px;
     }
 
-    .achivement h2{
+    .achivements h2{
         font-size: 22px;
     }
 
-    .achivement h4{
+    .achivements h4{
         font-size: 15px;
     }
 

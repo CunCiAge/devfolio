@@ -1,0 +1,378 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Comic Sans MS;
+    color: black;
+}
+
+.header{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgba(0, 0, 0, 0.5);
+    line-height: 90px;
+    color: white ;
+    position: fixed;
+    width: 100%;
+}
+
+.header_dev{
+    width: 40%;
+}
+
+.header_dev h2{
+    color: white;
+}
+
+.header_menu{
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+}
+
+ul{
+    list-style-type: none;
+}
+
+li a{
+    text-decoration: none;
+    color: white ;
+
+}
+
+.navbar::after{
+    content: "";
+    display: block;
+    width: 30px;
+    height:3px;
+}
+
+.navbar:hover::after{
+    content: "";
+    display: block;
+    width: 30px;
+    height:3px;
+    background-color: red;
+    transition: 1s;
+    position: relative;
+    bottom: 30px
+}
+
+.background_home{
+    background-image: url("background.jpg");
+    background-size: 2080px 800px;
+    text-align: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 800px;
+    color:white;
+}
+
+.background_home h1{
+    font-size: 50px;
+    color: white;
+}*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Comic Sans MS;
+    color: black;
+}
+
+.header{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgba(0, 0, 0, 0.5);
+    line-height: 90px;
+    color: white ;
+    position: fixed;
+    width: 100%;
+}
+
+.header_dev{
+    width: 40%;
+}
+
+.header_dev h2{
+    color: white;
+}
+
+.header_menu{
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+}
+
+ul{
+    list-style-type: none;
+}
+
+li a{
+    text-decoration: none;
+    color: white ;
+
+}
+
+.navbar::after{
+    content: "";
+    display: block;
+    width: 30px;
+    height:3px;
+}
+
+.navbar:hover::after{
+    content: "";
+    display: block;
+    width: 30px;
+    height:3px;
+    background-color: red;
+    transition: 1s;
+    position: relative;
+    bottom: 30px;
+}
+
+.background_home{
+    background-image: url("background.jpg");
+    background-size: 2080px 800px;
+    text-align: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 800px;
+    color:white;
+}
+
+.background_home h1{
+    font-size: 50px;
+    color: white;
+}
+
+.introduction{
+    width: 100%;
+    height: 800px;
+    background-image: url("306089996_1734125123616173_3094013399940384336_n.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.background_introduction{
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.background_introduction h2{
+    width: 70%;
+    text-align: center;
+    color: white;
+    font-size: 40px;
+}
+
+.background_introduction p{
+    width: 70%;
+    color: white;
+    font-size: 20px;
+    padding: 20px 0px;
+}
+
+.francify{
+    width: 100%;
+    background-image: url("IMG_5302.JPG");
+    /* height: 1000px; */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.francify_background{
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 100%;
+}
+
+.temp{
+    display: flex;
+    padding: 50px 0px;
+}
+
+.francify_picture{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.pictures{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 50px 0px;
+}
+
+.fr1{
+    width: 35%;
+    padding: 20px 0px;
+    border: 0px black solid;
+    border-radius: 100%;
+}
+
+
+.fr2{
+    width: 30%;
+    padding: 20px 0px;
+    border: 0px black solid;
+    border-radius: 100px;
+}
+
+.fr3{
+    width: 30%;
+    padding: 20px 0px;
+    border: 0px black solid;
+    border-radius: 100px;
+}
+
+.francify_text{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.francify_text h3{
+    color: white;
+    font-size: 40px;
+    padding: 10px;
+}
+
+.francify_text p{
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+}
+
+
+
+.technocode{
+    width: 100%;
+    background-image: url("373743834_165008926630174_6928404421110429857_n.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 800px;
+}
+
+.background_technocode{
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 100%;
+    display: flex;
+
+}
+
+
+.technocode_picture{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+
+.t1{
+    width: 40%;
+    padding: 20px 0px;
+    border: 0px black solid;
+    border-radius: 100px;
+}
+
+
+.t2{
+    width: 40%;
+    padding: 20px 0px;
+    border: 0px black solid;
+    border-radius: 100px;
+}
+
+
+.technocode_text{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.technocode_text h3{
+    color: white;
+    font-size: 40px;
+    padding: 10px;
+}
+
+.technocode_text p{
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+}
+
+
+
+.fairiblushart{
+    width: 100%;
+    background-image: url("375837066_122108488304029274_3307263842504051843_n.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 800px;
+}
+
+.background_fairiblushart{
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 100%;
+    display: flex;
+
+}
+
+
+.fairiblushart_picture{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+
+.f1{
+    
+    width: 30%;
+    padding: 20px 0px;
+    border: 0px black solid;
+    border-radius: 100%;
+}
+
+.fairiblushart_text{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.fairiblushart_text h3{
+    color: white;
+    font-size: 40px;
+    padding: 10px;
+}
+
+.fairiblushart_text p{
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+}
